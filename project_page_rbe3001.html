@@ -46,7 +46,7 @@
     <div id="lead" class = "RBE3001-top">
         <div id="lead-content">
             <h1>RBE3001 Final Project<br> </h1>
-            <a href="index.html" class="btn-rounded-blue">Download Report</a>
+            <a href="RBE_3001_Final_Report.html" class="btn-rounded-blue">Download Report</a>
             <a href="index.html" class="btn-rounded-white">Return Home</a>
         </div>
         <!-- End #lead-content -->
@@ -65,62 +65,82 @@
     <div id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-2">
-                    <h2 class="heading">Electrical Wiring and Design</h2>
-                </div>
-                <div>
-
-                </div>
-                <div class="col-md-4">
-                    <p>
-                       During the second semester of my Sophmore Year I started working with the Jet Engine branch of the WPI AIAA club. I designed the first version of the control box for the engine and am currently working with the club to revamp and improve the control systems to be both safer and more reliable.
-                       Along with this I did the inital Estop and sensor wiring for the engine, along with debugging when errors came up during testing.
-                </div>
-                <div class="col-md-4">
-                    <video controls width="300">
-                        <source src="images\Estop.mp4" type="video/mp4" />
-                    </video>
-                   
+                <div class="col-md-3">
+                    <h2 class="heading">Inverse Kinematics</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-2">
-                    <h2 class="heading">New Control System</h2>
-                </div>
-                <div>
-
-                </div>
-                <div class="col-md-4">
-                    <p>
-                        My current proposed design will have 3 seperate safety mechanisms, two soft stops and one hard Emergency Stop. The control signal is generated from an Arduino which will allow us to replace the FlySki RC flight controller we are currently using. 
-                        I also intend to look into the data termainal that we currently use for RPM reading from the engine and attempt to replace the terminal with the Arduino for real time display of engine data on the control box.                    </p>
-                </div>
-                <div class="col-md-4">
-                    <img src="images\terminal-1.jpg" width="550">
+                <div class="col-md-3">
+                    <h3 class="subheading">DH Parameters</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-2">
-                    <h2 class="heading">Data Collection</h2>
+                <div class="col-md-4">
+                    <p>
+                       We started by deriving the Denavit–Hartenberg parameters and frames for our robotic arm. This allowed us to calculate the location of the end effector with the inputs of the joint angles. 
+                    </p>
                 </div>
-                <div>
-
+                <div class="col-md-6">
+                    <img src="images\rbe3001botWFrames.png" width="500" style="padding-bottom: 20px;">
+                    <img src="images\DH_table.png" width="600">
+                </div>
+            </div>
+            <div class = "row">
+                <div class="col-md-3">
+                    <h3 class="subheading">Inverse Kinematics</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>
+                       We started by deriving the Denavit–Hartenberg parameters and frames for our robotic arm. This allowed us to calculate the location of the end effector with the inputs of the joint angles. 
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <img src="images\IK1.png" width="350">
+                        <img src="images\IK2.png" width="350">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="heading">Trajectory Planning</h2>
                 </div>
                 <div class="col-md-4">
                     <p>
-                        The next step in the elctronics and sensor design for the engine is to develop our data collection with a Raspberry Pi Zero on the test stand. This will be used to read engine RPM, load cells and pitot tubes to record and display that data in real time.
-                        I am also considering the possiblity in having it host a webserver for remote viewing of the data.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <!-- <img src="images\rbe3001botWFrames.png" width="550"> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="heading">Computer Vision Implimentation</h2>
+                </div>
+                <div class="col-md-4">
+                    <p>
+                       
                     </p>
                 </div>
                 <div class="col-md-4">
                     
                 </div>
-                <!-- <div class="col-md-4">
-                    <video controls width="300">
-                        <source src="images\Estop.mp4" type="video/mp4" />
-                    </video>
-                   
-                </div> -->
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="heading">Final Video and Paper</h2>
+                </div>
+                <div class="col-md-4">
+                    <p>
+                       
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    
+                </div>
             </div>
         </div>
     </div>
