@@ -103,23 +103,28 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-5">
-                    <h2 class="heading">Trajectory Planning</h2>
+            <div class = "row">
+                <div class="col-md-3">
+                    <h3 class="subheading">Trajectory Planning</h3>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-md-4">
                     <p>
-                         With the derivation of the inverse kinematics and DH parameters we implimented 3 different interpolated motion functions. 
+                        With the derivation of the inverse kinematics and DH parameters we implimented 3 different interpolated motion functions. 
                          The first was a basic interpolated motion, interpolate_jp(), which moved the robot in a linear motion, interpolated over a set time in milliseconds.
                          We also implimented cubic trajectories, to give constant velocity at the start and end points, and quintic trajectories, to give both constant velocity and acceleration at the start and end points.
                          This overall allowed us to get smooth motion of the robot arm, though for our final project we primarily used basic interpolation.
                     </p>
                 </div>
-                <div class="col-md-4">
-                    <!-- <img src="images\rbe3001botWFrames.png" width="550"> -->
+                <div class="col-md-8">
+                    <div class="row">
+                        <img src="images\IK1.png" width="350">
+                        <img src="images\IK2.png" width="350">
+                    </div>
                 </div>
             </div>
-            <div class="row">
+             <div class="row">
                 <div class="col-md-5">
                     <h2 class="heading">Computer Vision Implementation</h2>
                 </div>
